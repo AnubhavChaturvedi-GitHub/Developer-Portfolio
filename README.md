@@ -1,95 +1,92 @@
-# 👨‍💻 Anubhav Chaturvedi's Developer Portfolio
+# Developer Portfolio: Next.js and Tailwind CSS Portfolio Template
 
-Welcome to my portfolio! 🚀 I am Anubhav Chaturvedi, a passionate **Software Engineer** focused on **AI**, **Machine Learning**, and **Full-Stack Development**. Here, you’ll find my work, projects, and the technologies I use to create impactful solutions.
+> A fast, animated, fully responsive developer portfolio built with Next.js and Tailwind CSS. Showcase your projects, skills and experience on a single page that loads instantly and looks sharp on every screen.
 
-![image](https://github.com/user-attachments/assets/55877e19-1db3-47d8-b608-a40f8ec8750d)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://anubhav-chaturvedi.netlify.app/)
 
+**Live site:** [anubhav-chaturvedi.netlify.app](https://anubhav-chaturvedi.netlify.app/)
 
-🌐 Check out my live portfolio:
-- [Anubhav Chaturvedi Portfolio](https://anubhav-chaturvedi.netlify.app/)
-- [GitHub - Pro Portfolio](https://github.com/AnubhavChaturvedi-GitHub/Pro-Portfolio)
+![Portfolio preview](https://github.com/user-attachments/assets/55877e19-1db3-47d8-b608-a40f8ec8750d)
 
----
+## What it does
 
-## 📖 About Me
+A production-ready portfolio site you can fork and make your own in about ten minutes. All content is driven from a single data file, so you edit your details in one place rather than hunting through components.
 
-- 🧑‍💻 **Current Focus:** Building intelligent systems, working on **AI-powered applications** and **full-stack web development**.
-- 📚 **Learning:** Continuously exploring new **technologies**, improving my skills in **Python**, **TensorFlow**, **PyTorch**, **React**, and more.
-- 🎥 **YouTube Channel:** [Anubhav Chaturvedi](https://www.youtube.com/channel/UCzQwWwpTnVOu8zKfPTrQw2A) – 5.5K Subscribers, focusing on **AI**, **Software Engineering**, and **Tech Tutorials**.
+## Features
 
----
+- **Single-file content**: name, bio, projects, skills and links all come from one config
+- **Fully responsive**: mobile, tablet and desktop layouts
+- **Smooth animations**: scroll-triggered reveals and hover states
+- **SEO ready**: metadata, Open Graph tags and semantic markup out of the box
+- **Fast**: static generation via Next.js, excellent Lighthouse scores
+- **Contact form**: wired and ready to connect to your provider
+- **Easy to deploy**: works on Vercel, Netlify or any static host
 
-## 🚀 Projects
+## Getting started
 
-Here are some of the exciting projects I’ve worked on:
+### Prerequisites
 
-### 1. **Jarvis AI Assistant**
-- A **speech-to-text** powered **AI assistant** capable of performing tasks, answering questions, and much more.
-- Technologies: **Python**, **TensorFlow**, **PyTorch**, **Speech Recognition**.
+- Node.js 18 or newer
+- npm or yarn
 
-### 2. **AI Resume Generator**
-- An **AI-powered resume generator** using machine learning to craft perfect resumes.
-- Technologies: **Python**, **Natural Language Processing**, **React**.
+### Installation
 
-### 3. **NetHyTech-OpenSource**
-- A coding blog platform built using **Next.js**, showcasing open-source projects and tutorials.
-- Technologies: **Next.js**, **JavaScript**, **CSS**.
+```bash
+git clone https://github.com/AnubhavChaturvedi-GitHub/Developer-Portfolio.git
+cd Developer-Portfolio
+npm install
+```
 
----
+### Configure
 
-## 💻 Technologies & Tools
+```bash
+cp .env.example .env.local
+```
 
-| Technology          | 💼 Experience | 🔧 Usage                                    |
-|---------------------|---------------|---------------------------------------------|
-| **Python**          | ⭐⭐⭐⭐⭐         | Backend development, Machine Learning      |
-| **JavaScript**      | ⭐⭐⭐⭐          | Frontend development, Node.js              |
-| **React**           | ⭐⭐⭐⭐          | Building interactive UIs                   |
-| **TensorFlow**      | ⭐⭐⭐⭐          | AI & ML models                              |
-| **PyTorch**         | ⭐⭐⭐⭐          | Deep Learning                              |
-| **SQL**             | ⭐⭐⭐⭐          | Database Management, Query Optimization    |
-| **PySpark**         | ⭐⭐⭐⭐          | Big Data Processing                        |
-| **HTML/CSS**        | ⭐⭐⭐⭐⭐         | Web Design, UI/UX                          |
-| **Git**             | ⭐⭐⭐⭐⭐         | Version Control, Collaboration             |
-| **Docker**          | ⭐⭐⭐⭐          | Containerization                           |
-| **AWS**             | ⭐⭐⭐⭐          | Cloud Services                             |
-| **MongoDB**         | ⭐⭐⭐⭐          | NoSQL Database                             |
-| **VSCode**          | ⭐⭐⭐⭐⭐         | IDE for coding and development             |
+Fill in the values in `.env.local`, then start the dev server:
 
----
+```bash
+npm run dev
+```
 
-## 🧑‍💻 Skills
+Open [http://localhost:3000](http://localhost:3000).
 
-- **Software Engineering**: Full-Stack Development, Agile Development, System Design
-- **Artificial Intelligence & Machine Learning**: Model Development, Neural Networks, NLP, AI applications
-- **Web Development**: React.js, Node.js, REST APIs, Responsive Design
-- **Data Science**: Data Analysis, Data Visualization, Data Cleaning, Machine Learning Algorithms
+### Build and deploy
 
----
+```bash
+npm run build
+npm start
+```
 
-## 🛠️ Tools & Software
+Deploy to Vercel by importing the repository, or to Netlify by pointing it at `npm run build`.
 
-- **VS Code** - My primary development environment 💻
-- **GitHub** - For code collaboration and version control 🧑‍💻
-- **Figma** - UI/UX Design for beautiful user interfaces 🎨
-- **AWS** - For cloud deployment ☁️
-- **Docker** - Containerization and environment management 🐳
-- **Postman** - API testing and documentation 📡
+## Make it yours
 
----
+1. Edit your personal details, project list and social links in the site data file under `utils/`.
+2. Replace the images in `public/` with your own.
+3. Adjust colours and fonts in `tailwind.config.js`.
+4. Update the metadata in `app/` so search engines index your name.
 
-## 💬 Let's Connect!
+## Tech stack
 
-- 🐦 **Twitter:** [@Anubhav_Chatu](https://twitter.com/Anubhav_Chatu)
+Next.js, React, Tailwind CSS, PostCSS, ESLint.
 
-Feel free to reach out for collaborations, open-source contributions, or just to chat about tech! 🚀
+## Contributing
 
----
+Issues and pull requests are welcome. If you build your own version from this template, open an issue with the link and it can be featured here.
 
-## 📂 License
+## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Released under the [MIT License](LICENSE). Free to use for your own portfolio.
 
----
+## Author
 
-Thank you for visiting my portfolio! ✨
+**Anubhav Chaturvedi**, founder of [NetHyTech](https://www.youtube.com/@NetHyTech), a developer community of 30,000+ members.
 
+[![YouTube](https://img.shields.io/badge/YouTube-NetHyTech-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@NetHyTech)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anubhav-chaturvedi-/)
+
+If this project saved you time, a star on the repo helps other people find it.
